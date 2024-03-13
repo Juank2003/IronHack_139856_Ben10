@@ -1,0 +1,152 @@
+/*----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efffc3;
+}
+/*----------------------------------------*/
+/*header*/
+
+header{
+    background-color: #0D521F;
+    color: #000000;
+    text-align: center;
+}
+nav ul {
+    background-color: #8A9A5B;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+nav li {
+    margin: 0 200px;
+}
+
+nav a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+/*----------------------------------------*/
+/*main_index*/
+
+.bienvenida{
+    color: #b41616;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px  ;
+}
+
+.encabezado{
+    text-align: center;
+    margin-: 20px;
+    padding: 20px  ;
+    color: #b41616;
+}
+
+.imagenes-encabezado{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.encabezado2{
+    text-align: center;
+    margin-: 20px;
+    padding: 20px  ;
+    color: #b41616;
+}
+
+.imagenes-encabezado-2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+/*----------------------------------------*/
+/*footer*/
+
+.footer{
+    display: flex;
+    background-color: #0D521F;
+    color: #000000;
+    justify-content: space-around;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer1 h3 {
+    margin-bottom: 10px;
+}
+.footer1 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer1 ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+/*----------------------------------------*/
+/*main-personajes*/
+.personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.personaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personaje img {
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .personajes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .personaje {
+        width: 30%;
+        margin: 10px;
+    }
+}
+/*----------------------------------------*/
+/*main-formulario*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10% 0;
+}
