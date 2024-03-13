@@ -150,3 +150,98 @@ nav a {
     padding: 20px;
     margin: 10% 0;
 }
+
+/*----------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    header, nav, .bienvenida, main, .personajes, footer {
+        width: 100%;
+    }
+
+    header #ImagenLogo img {
+        width: 200px;
+        margin: 10px auto;
+    }
+
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .bienvenida, .encabezado, .encabezado2 {
+        margin: 10px 5px;
+        padding: 5px;
+    }
+
+    .imagenes-encabezado, .imagenes-encabezado-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .imagenes-encabezado img, .imagenes-encabezado-2 img {
+        width: 90%;
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+    .personajes {
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .personaje {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .personaje img {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .formulario {
+        width: 100%;
+        padding: 5px;
+        margin: 20px 0;
+
+    }
+
+    .formulario label, .formulario input[type="text"], .formulario input[type="email"], .formulario input[type="password"], .formulario input[type="submit"] {
+        width: 90%;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 10px 5px;
+    }
+
+    .footer1 {
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .footer1 h3 {
+        font-size: 16px;
+    }
+
+    .footer1 ul {
+        padding: 0;
+    }
+
+    .footer1 ul li a {
+        font-size: 14px;
+    }
+}
